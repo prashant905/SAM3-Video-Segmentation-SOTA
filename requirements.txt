@@ -1,0 +1,8 @@
+gradio
+torch
+torchvision
+pillow
+opencv-python
+imageio[pyav]
+accelerate
+git+https://github.com/huggingface/transformers.git@c3fb1b1a6ca1102f62b139c83a088a97e5a55477
