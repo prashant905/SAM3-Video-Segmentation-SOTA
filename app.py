@@ -36,7 +36,7 @@ _GLOBAL_MODEL_REPO_ID = "facebook/sam3"
 _GLOBAL_TOKEN = os.getenv("HF_TOKEN")
 
 # Initialize Gemini client
-_GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDkZxdnLmhCfmu8c3J_Lpn2NhkBkg2Ptto")
+_GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR GEMINI KEY")
 _GEMINI_CLIENT = None
 if GEMINI_AVAILABLE:
     try:
